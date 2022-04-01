@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import PhoneInput from 'react-phone-input-2'
+/* import PhoneInput from 'react-phone-input-2' */
 import 'react-phone-input-2/lib/style.css'
 import {
     Button,
@@ -112,11 +112,11 @@ const Register = () => {
                             type="password"
                             onChange={handleInputChange}
                         />
-                        <PhoneInput
+                        {/* <PhoneInput
                             country={'za'}
                             value={phone}
                             onChange={phone =>handlePhone(phone)}
-                        />
+                        /> */}
                         <Button color="black"
                             size='large'
 
