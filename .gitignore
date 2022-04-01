@@ -12,6 +12,11 @@ node_modules/
 /build
 env/
 *.pyc
+*.JPEG
+*.jpg
+*.jpeg 
+*.png
+
 # misc
 .DS_Store
 .env.local

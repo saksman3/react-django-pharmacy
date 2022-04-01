@@ -10,4 +10,4 @@ WORKDIR /app
 RUN ls
 RUN pwd
 
-CMD ["uwsgi", "--http", "0.0.0.0:8000", "--module", "auth.wsgi"] 
+CMD ["uwsgi", "--http", "0.0.0.0:8000", "--module", "home.wsgi.dev"] 
