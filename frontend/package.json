@@ -12,7 +12,8 @@
     "react-scripts": "5.0.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.1.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-phone-number-input": "^3.1.48"
   },
   "scripts": {
     "start": "react-scripts start",
