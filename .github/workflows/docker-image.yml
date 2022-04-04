@@ -12,4 +12,4 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:latest
-    - run: docker run -p 8000:8000 --tag my-image-name:latest
+    - run: docker run -p 8000:8000 my-image-name:latest
